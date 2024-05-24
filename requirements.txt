@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+# pytesseract
+# pillow
+python-dotenv
+openai
+# discord.py
+# python-telegram-bot
+# pymupdf
+# psycopg2-binary
+# SQLAlchemy
