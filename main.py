@@ -5,6 +5,15 @@ from topics import TopicResearcher
 from arxivScraper import ArxivScraper
 from summarizer import PaperSummarizer
 
+# Creating environment file
+if ".env" not in os.listdir():
+    api_key = input("Enter your OpenAI API key: ")
+    with open(".env", "w") as f:
+        f.write(f"OPENAI_API_KEY={api_key}")
+
+with open("banner.txt", "r") as banner:
+    print(banner.read())
+
 def cleaner(texts):
     cleaned_texts = []
     for text in texts:
