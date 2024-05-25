@@ -49,7 +49,7 @@ This script will:
 - Prompt you to enter the name of the research paper you want to download.
 - Use OpenAI to get the correct name of the research paper.
 - Use the ArxivScraper to search and download the paper from arXiv.org.
-- 
+  
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
