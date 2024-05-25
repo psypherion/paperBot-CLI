@@ -68,7 +68,32 @@ This script will:
 - Discord and Telegram Bot integration
 - Daily Research paper recommendation
 - Database addition
-  
+
+___
+
+## Steps to Get OpenAI API Key : 
+
+### 1.Sign Up for an OpenAI Account
+- Go to the [OpenAI website](https://platform.openai.com/signup).
+- Click on the "Sign Up" button to create a new account.
+- 
+### 2.Choose a Plan
+- After signing up, choose a plan that suits your needs. OpenAI offers different plans based on usage and features.
+- You can find more information about the plans [here](https://openai.com/api/pricing/).
+
+### 3.Access API Key
+
+- Once you have chosen a plan and completed the payment (if applicable), log in to your OpenAI account.
+- Go to the API section or dashboard in your account settings.
+- You should find your API key listed there. It will typically be a long string of characters.
+
+### 4.Copy API Key
+
+- Copy your API key to use it in your projects.
+- Make sure to keep your API key secure and do not share it publicly.
+
+___
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
