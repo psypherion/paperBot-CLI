@@ -16,7 +16,8 @@ This repository contains the following Python scripts:
 ```bash
 .
 ├── banner.txt
-├── fetcher.py (formerly main.py)
+├── fetcher.py
+├── main.py
 ├── summarizer.py
 ├── topics.py
 ├── arxivScraper.py
