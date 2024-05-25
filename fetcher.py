@@ -2,6 +2,7 @@ import openai
 import os
 from dotenv import load_dotenv
 from arxivScraper import ArxivScraper
+from summarizer import PaperSummarizer
 
 class PaperBotCLI:
     def __init__(self):
@@ -53,13 +54,27 @@ class PaperBotCLI:
             html_content = scraper.search_articles()
             if html_content:
                 scraper.download_pdf(html_content)
+                return research_article
             else:
                 print("No research paper found on arxiv.")
+                return None
         else:
             print("No paper entered. Exiting.")
+            return None
+
+    def summarize_research_paper(self, paper_title):
+        summarizer = PaperSummarizer(self.api_key)
+        summary = summarizer.get_summary(paper_title)
+        print(f"Summary:\n{summary}")
 
     def run(self):
-        self.download_research_paper()
+        paper_title = self.download_research_paper()
+        if paper_title:
+            summarize = input("Do you want to get a summary of the research paper? (y/N): ").strip().lower()
+            if summarize == 'y':
+                self.summarize_research_paper(paper_title)
+            else:
+                print("Summary skipped.")
 
 if __name__ == "__main__":
     bot = PaperBotCLI()
