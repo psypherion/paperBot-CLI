@@ -12,6 +12,18 @@ This repository contains the following Python scripts:
 4. **main.py:** The main script that integrates the functionalities of the above tools.
 5. **fetcher.py:** A script that allows a user to download a specific research paper by its name.
 
+## Project Structure
+```bash
+.
+├── banner.txt
+├── fetcher.py (formerly main.py)
+├── summarizer.py
+├── topics.py
+├── arxivScraper.py
+├── requirements.txt
+└── .env
+```
+
 ## Setting Up
 
 ### 1. Clone the Repository
