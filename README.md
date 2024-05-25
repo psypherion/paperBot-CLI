@@ -76,7 +76,7 @@ ___
 ### 1.Sign Up for an OpenAI Account
 - Go to the [OpenAI website](https://platform.openai.com/signup).
 - Click on the "Sign Up" button to create a new account.
-- 
+  
 ### 2.Choose a Plan
 - After signing up, choose a plan that suits your needs. OpenAI offers different plans based on usage and features.
 - You can find more information about the plans [here](https://openai.com/api/pricing/).
