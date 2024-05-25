@@ -62,7 +62,7 @@ For any questions or suggestions, feel free to reach out to me via my social med
 ___
 
 ## V 0.02
-1. **Added the New `fetcher.py` Script:** Included a description and usage instructions for the `fetcher.py` script.
+1. **Added the New `fetcher.py` 
 2. **Removed the Step to Create `.env` File:** The step to manually create the `.env` file has been removed since it is now created automatically by `main.py` and `fetcher.py`.
 3. **Formatted the README:** Ensured consistent formatting for better readability.
 ___
